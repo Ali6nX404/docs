@@ -64,9 +64,9 @@
         "tab": "FAQs",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "FAQs",
             "pages": [
-              "api-reference/introduction"
+              "integrationFAQs"
             ]
           },
           {
