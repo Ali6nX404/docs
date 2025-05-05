@@ -1,38 +1,44 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "willow Starter Kit",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#fff",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
+
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "User Guides",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "user_guides/index",
+              "user_guides/quickstart",
+              "user_guides/development"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Manage Chat Agents",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "user_guides/users",
+              "user_guides/agents",
+              "user_guides/permissions"
             ]
           }
         ]
+      },
+      {
+        "tab": "integration",
+        "pages": [
+              "integration/notion",
+              "integration/calc",
+              "integration/google_docs"
+            ]
       },
       {
         "tab": "API Reference",
@@ -53,27 +59,28 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "FAQs",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
