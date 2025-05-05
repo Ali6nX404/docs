@@ -62,23 +62,9 @@
       },
       {
         "tab": "FAQs",
-        "groups": [
-          {
-            "group": "FAQs",
-            "pages": [
-              "integrationFAQs"
+        "pages": [
+              "integration/FAQs"
             ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
       }
     ]
   },
